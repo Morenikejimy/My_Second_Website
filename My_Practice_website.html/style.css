@@ -38,11 +38,8 @@ nav a:hover {
     background-color: blue;
     color: white;
     padding: 6px 10px;
-    /* to make it button like shape */
-    border-radius: 20px
-    /* upper case */
-    text-transform uppercase;
-
+    border-radius: 20px;       /* Semicolon added */
+    text-transform: uppercase;
 }
 
 nav.button :hover {
@@ -52,6 +49,7 @@ nav.button :hover {
 /* Hero Section */
 .hero {
     display: flex;
+    margin-bottom: 70px ;
 }
 
 .hero div {
@@ -75,9 +73,9 @@ nav.button :hover {
 }
 
 .hero-info p {
-    color: grey ;
+    color: grey;
     margin-bottom: 30px;
-    font-size: px;
+    font-size: 16px; 
 }
 
 .hero-info button {
@@ -85,9 +83,50 @@ nav.button :hover {
     border: none;
     color: white;
     padding: 10px;
-    width: 50;
+    width: 50px;
 }
 
 .hero-img {
+    position: relative;
     
+}
+
+.hero-img img {
+  width: 100px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.hero-img div {
+	position: absolute; 
+	bottom: 50px;
+	left: 30px;
+	color: white;
+}
+
+.hero-img div :first-child {
+    font-size: 24px;
+
+}
+.project {
+    margin: 0 40px;
+}
+    
+
+.project h2 {
+    font-weight: bold;
+    font-size: 30px;
+
+
+}
+
+.project div :first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.project-container {
+    display: flex;
 }

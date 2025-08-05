@@ -46,3 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.hero-img div {
+	position:absolute
+	bottom: 50px;
+	left:30px
+	color:white;
+
+}
