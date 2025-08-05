@@ -1,0 +1,93 @@
+body {
+    background-color: bisque;
+}
+
+nav {
+    padding: 20px; 
+    display: flex;   
+}
+/* the link in the narv */
+nav a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color :black;
+    margin: 10px 30px;
+    border-bottom: 2px transparent;
+    /* to add transition */
+    transition: all .3s linear;
+    cursor: default;
+}
+
+/* when you hover th link the color should change */
+nav a:hover {
+    color: blue;
+    border-bottom: 2px solid color blue;
+   
+}
+
+.logo {
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.button {
+    border-bottom: none;
+    background-color: blue;
+    color: white;
+    padding: 6px 10px;
+    /* to make it button like shape */
+    border-radius: 20px
+    /* upper case */
+    text-transform uppercase;
+
+}
+
+nav.button :hover {
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+}
+
+.hero div {
+    flex: 1;
+}
+
+.hero-info {
+    padding: 40px;
+}
+
+.hero-info img{
+    width: 90px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.hero-info h1 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px
+}
+
+.hero-info p {
+    color: grey ;
+    margin-bottom: 30px;
+    font-size: px;
+}
+
+.hero-info button {
+    background-color: aqua;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 50;
+}
+
+.hero-img {
+    
+}
